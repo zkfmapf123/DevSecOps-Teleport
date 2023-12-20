@@ -4,7 +4,7 @@
 
 ## 1. Route53 설정
 
-![route53](./public/route53.png)
+![route53](../public/route53.png)
 
 - route53과 Teleport가 설치될 인스턴스의 EIP를 등록시킨다.
 
@@ -43,11 +43,11 @@
     cd /etc/letsencrypt/live
 ```
 
-![challenge](./public/challenge.png)
+![challenge](../public/challenge.png)
 
 ## 4. nginx https 설정 (안해도 됨)
 
-![ssl](./public/ssl.png)
+![ssl](../public/ssl.png)
 
 ```sh
     // sudo vi /etc/nginx/nginx.conf
@@ -75,7 +75,7 @@
 
 ## 5. Teleport cluster 설정
 
-![telpepor](./public/telport-2.png)
+![telpepor](../public/telport-2.png)
 
 ```sh
     ## acme-email : ACME 인증서 발급 및 관리와 관련된 알림 / 경고를 받을 이메일
@@ -91,7 +91,7 @@
 
 ## etc. 어라.. Teleport가 안되네...
 
-![tel](./public/tel-3.png)
+![tel](../public/tel-3.png)
 
 - 443을 이미쓰고있다..
 - nginx에 443을 연결하고 있어서 그런가보다.. 괜히설정 했네
