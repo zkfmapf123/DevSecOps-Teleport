@@ -6,9 +6,9 @@
 
 [install_teleport](./documents/install_teleport.md)
 
-## Teleport 설정
+## Teleport 관리
 
-- ...todo
+[management_teleport](./documents/management_teleport.md)
 
 ## Teleport 접근
 
