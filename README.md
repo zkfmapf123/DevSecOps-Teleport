@@ -9,7 +9,3 @@
 ## Teleport 관리
 
 [management_teleport](./documents/management_teleport.md)
-
-## Teleport 접근
-
-- ...todo

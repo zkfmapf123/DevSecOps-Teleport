@@ -44,6 +44,17 @@
 - 다만 해당 WAS tier instance에는 직접접근해서 해당명령어를 진행했다. (user_data로 해도 될듯)
 - 그러면 끝... (의외로 간단하네...)
 
-## 5. DB tier에 db 등록
+## 번외) Resource에 Label을 어떻게 붙히지...
 
-- ...todo
+![2-10](../public/2-10.png)
+
+- All Resource 에서 보면 hostname으로 나오는데, 이러면 어떤 Server인지모름...
+- 인스턴스의 메타데이터를 허용한다.
+
+![2-11](../public/2-11.png)
+
+- metadata를 넣어보자.. (WebConsole에서 하는법 모르겠음)
+
+![2-12](../public/2-12.png)
+
+- <a href="https://goteleport.com/docs/management/guides/ec2-tags/"> Teleport use Tag </a>
