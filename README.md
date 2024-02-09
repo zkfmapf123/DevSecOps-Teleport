@@ -6,10 +6,6 @@
 
 [install_teleport](./documents/install_teleport.md)
 
-## Teleport Service로 관리
-
-[teleport_service](./documents/service.md)
-
 ## Teleport 관리
 
 [management_teleport](./documents/management_teleport.md)
